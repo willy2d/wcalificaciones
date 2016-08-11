@@ -10,3 +10,10 @@ Para ingresar, debe escribirse en la barra de dirección del browser (software d
 
 ¿Cuál es mi usuario en mi MiVHD Notas?
 El usuario es su número de DNI
+
+INSTALACION:
+1.Descargue la ultima version destable de yii 1X de https://github.com/yiisoft/yii/archive/master.zip
+2.Descargue la version estable de wcalificaciones de https://github.com/willy2d/wcalificaciones
+3. Suba a su hosting.En su servidor debe quedar la siguiente estructura:
+/wcalificaciones
+/yii/framework
