@@ -29,7 +29,10 @@ INSTALACION:
 2. Suba a su hosting y descomprima "wcalificaciones-master.zip" y en su interior descomprima "yii-descomprime-esta-carpeta.zip".
 
 3. En su servidor debe quedar la siguiente estructura:
-/wd
-/yii/framework
+
+/wcalificaciones/wd
+
+/wcalificaciones/yii/framework
+
 
 4. Si desea instalar en su servidor local puedes descargar XAMPP para Windows de https://www.apachefriends.org/es/download.html
