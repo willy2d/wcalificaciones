@@ -34,5 +34,4 @@ INSTALACION:
 
 /wcalificaciones/yii/framework
 
-
 4. Si desea instalar en su servidor local puedes descargar XAMPP para Windows de https://www.apachefriends.org/es/download.html
