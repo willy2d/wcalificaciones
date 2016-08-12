@@ -1,19 +1,24 @@
 # wcalificaciones
-Consulta tus calificaciones Escolares ¿Qué es mi MiVHD notas?
+Consulta tus calificaciones Escolares 
+
+¿Qué es mi wcalificaciones?
 Es un proyecto de publicación vía web de las calificaciones de todos los estudiantes, el cual permite realizar consultas de notas de manera rápida, ágil sin ningún costo, facilitando al estudiante mantener un mayor control sobre sus áreas académicas.
-¿Qué busca mi MiVHD Notas?
+
+¿Qué busca mi wcalificaciones?
 Facilitar el acceso a la información de las notas por trimestre académico.
-¿Cómo ingresar a mi MiVHD Notas?
+
+¿Cómo ingresar a mi wcalificaciones?
 
 Para ingresar a “CONSULTA DE NOTAS”,se necesita un smartphone, tablet o computadora con acceso a internet. 
-Para ingresar, debe escribirse en la barra de dirección del browser (software de navegación, por ejemplo: Internet Explorer, Google Chrome, Mozilla, Safari, Opera...) la  dirección url: “http://mivhd.byethost5.com/”.
+Para ingresar, debe escribirse en la barra de dirección del browser (software de navegación, por ejemplo: Internet Explorer, Google Chrome, Mozilla, Safari, Opera...). Puedes ver una web funcional implementada con wcalificaciones en la  dirección url: “http://mivhd.byethost5.com/”.
 
 ¿Cuál es mi usuario en mi MiVHD Notas?
 El usuario es su número de DNI
 
 INSTALACION:
-1.Descargue la ultima version destable de yii 1X de https://github.com/yiisoft/yii/archive/master.zip
-2.Descargue la version estable de wcalificaciones de https://github.com/willy2d/wcalificaciones
-3. Suba a su hosting.En su servidor debe quedar la siguiente estructura:
-/wcalificaciones
+1.Descargue la version estable de wcalificaciones de https://github.com/willy2d/wcalificaciones
+3. Suba a su hosting y descomprima "*.zip" y en su interior descomprima "yii-descomprime-esta-carpeta.zip".
+4. En su servidor debe quedar la siguiente estructura:
+/wd
 /yii/framework
+5.Si desea instalar en su servidor local puedes descargar XAMPP para Windows de https://www.apachefriends.org/es/download.html
