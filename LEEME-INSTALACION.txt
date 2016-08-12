@@ -1,0 +1,18 @@
+Gracias por apoyar el desarrollo del software libre
+
+1. Descomprima el archivo descargado de https://github.com/willy2d/wcalificaciones
+2. Cree las tablas necesarias mediante el phpmyadmin utilizando el archivo "wcalificaciones-demo-instalar.sql" en su servidor web
+3. En \wcalificaciones\wd\protected\config.php configure los datos de acceso de su servidor bd mysql en la linea 117
+
+'connectionString' => 'mysql:host=localhost;dbname=wcalificaciones',
+'emulatePrepare' => true,'username' => 'wcalificaciones',
+'password' => 'wcalificaciones',
+
+4. Para importar sus calificaciones utilice el archivo "plantilla-csv-primer-trimestre-notas-para-importar.csv" cargando sus alumnos y calificaciones.
+
+5. Personalizar vistas, en la carpeta "\wcalificaciones\wd\protected\views\site", edite el archivo "view.php" con sus datos de su institucion.
+
+Saludos
+
+Willy Delgado
+https://www.facebook.com/WILLYDELGADOD/
