@@ -13,13 +13,16 @@ Facilitar el acceso a la información de las notas por trimestre académico.
 ¿Cómo ingresar a mi wcalificaciones?
 
 Para ingresar a “CONSULTA DE NOTAS”,se necesita un smartphone, tablet o computadora con acceso a internet. 
+
 Para ingresar, debe escribirse en la barra de dirección del browser (software de navegación, por ejemplo: Internet Explorer, Google Chrome, Mozilla, Safari, Opera...). Puedes ver una web funcional implementada con wcalificaciones en la  dirección url: “http://mivhd.byethost5.com/”.
 
 ¿Cuál es mi usuario en mi MiVHD Notas?
+
 El usuario es su número de DNI
 
 INSTALACION:
-1.Descargue la version estable de wcalificaciones de https://github.com/willy2d/wcalificaciones.
+
+1. Descargue la version estable de wcalificaciones de https://github.com/willy2d/wcalificaciones.
 
 2. Suba a su hosting y descomprima "*.zip" y en su interior descomprima "yii-descomprime-esta-carpeta.zip".
 
@@ -27,4 +30,4 @@ INSTALACION:
 /wd
 /yii/framework
 
-4.Si desea instalar en su servidor local puedes descargar XAMPP para Windows de https://www.apachefriends.org/es/download.html
+4. Si desea instalar en su servidor local puedes descargar XAMPP para Windows de https://www.apachefriends.org/es/download.html
