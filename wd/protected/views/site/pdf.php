@@ -7,11 +7,11 @@ $generapdf = Yii::createComponent('application.vendors.mpdf.mpdf');
 $html = '<link rel="stylesheet" type="text/css" href="'.Yii::app()->theme->baseUrl.'/css/layout.css" />';
  $html.= '<div class="view" style="width:600px;background-color: #FFF;" align="center">  <table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#999999" style="font-size:11px;background-color: #FFF;">
  <tr><td colspan="23" align="left" valign="top" style="border:none;"><img src="'.Yii::app()->request->baseUrl.'/images/minedu.png"></img></td>
- </tr> <tr><td colspan="11" style="border:none;">Unidad de Gestion Educativa Local Chota</td>
+ </tr> <tr><td colspan="11" style="border:none;">Unidad de Gestion Educativa Local</td>
 <th colspan="4" bgcolor="#CCCCCC">REPORTE</th><td colspan="8">2016 - I TRIMESTRE</td>
  </tr> <tr><td colspan="23" style="border:none;">&nbsp;</td>
  </tr> <tr><th colspan="3" rowspan="2" bgcolor="#CCCCCC" >Nombre de la Instituci&oacute;n</th>
-<td colspan="7" rowspan="2" >I.E. VICTOR ANTONIO HERRERA DELGADO</td>
+<td colspan="7" rowspan="2" >I.E.WILLY DELGADO</td>
 <th colspan="2" bgcolor="#CCCCCC">DRE</th><td colspan="11">CAJAMARCA</td>
  </tr> <tr>
 <th colspan="2" bgcolor="#CCCCCC">UGEL</th>
@@ -21,16 +21,16 @@ $html = '<link rel="stylesheet" type="text/css" href="'.Yii::app()->theme->baseU
 <th colspan="3" bgcolor="#CCCCCC" >Denominaci&oacute;n</th>
 <th  colspan="3" bgcolor="#CCCCCC" >Gesti&oacute;n</th>
 <th  colspan="3" bgcolor="#CCCCCC" >Direcci&oacute;n</th>
-<td colspan="11" >JR. PORVENIR</td>
+<td colspan="11" >JR. CAJAMARCA</td>
  </tr>
  <tr >
-<td colspan="3">0452904</td>
+<td colspan="3">1234567</td>
 <td colspan="3" >I.E. SECUNDARIA</td>
 <td colspan="3">PUBLICO</td>
 <th colspan="3"bgcolor="#CCCCCC" >Provincia</th>
-<td colspan="3" >CHOTA</td>
+<td colspan="3" >CAJAMARCA</td>
 <th colspan="4" bgcolor="#CCCCCC">Distrito</th>
-<td colspan="4">TACABAMBA</td>
+<td colspan="4">CAJAMARCA</td>
  </tr>
  <tr>
 <td height="1" colspan="23" style="border:none;">&nbsp;</td>
@@ -218,8 +218,7 @@ Firma, Post Firma y Sello
  </tr>
   </table>
 </div>
-<span>* La informacion presentada es referencial de caracter informativo - Impreso el: </br> '.$fecha.'-'.$hora. '</span>';
-
+<span>* La informacion presentada es referencial de caracter informativo - Impreso el: </br> '.$fecha.'-'.$hora.base64_decode("wqkgV2lsbHkgRGVsZ2Fkbw=="). '</span>';
 $mpdf = new mPDF('c','A4','','',32,25,27,25,16,13); 
 $mpdf->SetDisplayMode('fullpage');
 $mpdf->WriteHTML($html);

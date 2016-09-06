@@ -1,0 +1,59 @@
+/*
+	EYuiRelation Layout
+	
+	<div id='WIDGETID' class='eyuirelation'>
+		<span class='title'>Departments</span>
+		<ul>
+			<li>text<img class='accion'></li>
+		</ul>
+		<select name="WIDGETID_select" id="WIDGETID_select">
+			<option></option>
+		</select>
+		<input type='button' value='Seleccione'><img class="loading"/>
+		<div class='logger'>error list</div>
+	</div>
+*/
+div.eyuirelation {
+	border: 2px solid #aaa;
+	border-radius: 5px;
+	padding: 4px;
+	background-color: white;
+}
+
+div.eyuirelation .title {
+	font-weight: bold;
+	display: block;
+}
+
+div.eyuirelation ul {
+	border: 1px dotted #efefef;
+	padding: 3px;
+	list-style: none;
+}
+div.eyuirelation ul li {
+	padding: 3px;
+	border: 1px solid #fff;
+	text-align: left;
+	overflow: auto;
+}
+
+div.eyuirelation ul li span{
+	float: left;
+}
+div.eyuirelation ul li .accion{
+	float: right;
+}
+
+div.eyuirelation ul li.odd {
+	background-color: #eef5ff;
+}
+div.eyuirelation ul li.even {
+	background-color: #ebf7ef;
+}
+
+div.eyuirelation ul li.even:hover {
+	background-color: #def1e4;
+}
+div.eyuirelation ul li.odd:hover {
+	background-color: #dbebff;
+}

@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+IndexIgnore */*
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule test\.html http://www.google.com
+# and the requested path and file doesn't directly match a physical file
+RewriteCond %{REQUEST_FILENAME} !-f
+# and the requested path and file doesn't directly match a physical folder
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward it to index.php
+RewriteRule . index.php
+</IfModule>

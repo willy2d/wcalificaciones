@@ -1,0 +1,12 @@
+CREATE TABLE eyuiformeditordb (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	model_id INTEGER NOT NULL,
+	form_id VARCHAR(45) NOT NULL,
+	item INTEGER NOT NULL,
+	parent_id INTEGER,
+	item_id VARCHAR(45) NOT NULL,
+	label VARCHAR(250) NOT NULL,
+	descr VARCHAR(250),
+	position INTEGER,
+	data VARCHAR(1024) NOT NULL
+);

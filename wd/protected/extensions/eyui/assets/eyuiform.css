@@ -1,0 +1,157 @@
+.eyuiform {
+	border: 1px dotted #aaa;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px;
+	display: block;
+}
+
+.eyuiform .group br,
+.eyuiform .group hr {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.eyuiform  div.page {
+	margin-bottom: 10px;
+}
+
+.eyuiform  div.info {
+}
+.eyuiform  div.info h1{
+	font-family: Verdana;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.eyuiform  div.page div.groups {
+	margin-top: 5px;
+}
+
+.eyuiform  div.page div.groups div.group {
+	box-shadow: 5px 5px 7px #ddd;
+	padding: 5px;
+	border: 1px dotted #ddd;
+	background-color: white;
+	clear: both;
+}
+
+.eyuiform  div.page div.groups div.group hr {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+
+.eyuiform  div.page div.groups div.group h1 {
+	color: gray;
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.eyuiform  div.page  h6 {
+	color: gray;
+	background-color: #eee;
+	padding: 10px;
+	padding-left: 30px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.eyuiform  div.page div.groups div.group p.info {
+	color: gray;
+	font-size: 0.9em;
+}
+
+.eyuiform  div.page div.groups div.group ul.fields {
+	list-style: none;
+	padding: 0px;
+	overflow: auto;
+	height: auto;
+	display: block;
+	clear: both;
+}
+
+.eyuiform  div.page div.groups div.group ul.fields li {
+	float: left;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+.eyuiform  div.page div.groups div.group .fields li div.descr {
+	color: gray;
+	font-family: verdana;
+	font-size: 0.8em;
+}
+
+.eyuiform  div.page div.groups div.group .fields li  div.checkboxes {
+
+}
+
+.eyuiform  div.page div.groups div.group .fields li  div.checkboxes span.checkbox{
+	margin-right: 10px;
+	padding: 3px;
+
+}
+
+.eyuiform .success {
+	color: green;
+}
+.eyuiform .error {
+	color: darkred;
+}
+.eyuiform  .required
+{
+	color: darkred;
+}
+
+
+.eyuiform
+	input.error
+{
+	color: darkred;
+	background-color: #ffeeee;
+}
+
+.eyuiform
+	input,
+	textarea,
+	select
+{
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	padding: 3px;
+	background-color: #eee;
+	color: navy;
+}
+.eyuiform input,
+.eyuiform select
+{
+	height: 25px;
+	padding: 2px;
+}
+.eyuiform label {
+	font-family: verdana;
+	font-size: 0.8em;
+	padding: 5px;
+	margin: 0px;
+	overflow: visible;
+}
+
+.eyuiform ul.errorresume {
+
+}
+.eyuiform ul.errorresume li{
+
+}
+.eyuiform ul.errorresume li p{
+	color: gray;
+}
